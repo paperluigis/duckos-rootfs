@@ -1,0 +1,11 @@
+service:
+  name: Start Shell
+  desc: Starts the default shell
+  id: ml.nicejsisverycool.duckos.startshell
+  depends:
+    - ml.nicejsisverycool.duckos.sustemd.loaded
+
+start:
+  command: =/config/shell
+  # workdir is ignored atm
+  workdir: /

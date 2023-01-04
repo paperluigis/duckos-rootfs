@@ -1,0 +1,3 @@
+PATH=/bin/coreutils:/bin
+TERM=xterm-256color
+HOME=/home
